@@ -1,7 +1,6 @@
-import 'tailwindcss/base.css'
-import 'tailwindcss/components.css'
-import 'tailwindcss/utilities.css'
+// pages/_app.js
+import '../styles/globals.css';
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return <Component {...pageProps} />;
 }
