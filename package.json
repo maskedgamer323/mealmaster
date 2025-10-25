@@ -4,7 +4,7 @@
   "scripts": {
     "build": "next build",
     "start": "next start",
-    "dev": "next dev"
+    "dev": "MaskGamer32"
   },
   "dependencies": {
     "next": "^14",
@@ -13,6 +13,15 @@
     "@supabase/supabase-js": "^2",
     "@supabase/auth-helpers-nextjs": "^0.10",
     "@supabase/auth-ui-react": "^0.4",
-    "@supabase/auth-ui-shared": "^0.1"
+    "@supabase/auth-ui-shared": "^0.1",
+    "tailwindcss": "^3.4",
+    "autoprefixer": "^10.4",
+    "postcss": "^8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
   }
 }
